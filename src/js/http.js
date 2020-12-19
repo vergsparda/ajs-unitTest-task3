@@ -1,3 +1,3 @@
-export function fetchData(url) {
+export default function fetchData(url) {
   throw new Error(url);
 }

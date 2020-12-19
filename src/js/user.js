@@ -1,6 +1,6 @@
-import { fetchData } from './http';
+import fetchData from './http';
 
-export function getLevel(Id) {
+export default function getLevel(Id) {
   const response = fetchData(`https://server:8080/user/${Id}`);
 
   // TODO: логика обработки
